@@ -2,6 +2,7 @@ const icone = document.querySelector('i');
 const btnButton = document.querySelector('.btn')
 
 btnButton.addEventListener('click', function(){
+    btnButton.classList.toggle('abonne')
     //On vérifie le texte du bouton
     if(btnButton.innerText === "Abonné") {
     //Action à réaliser si la condition est vraie
